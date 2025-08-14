@@ -3,8 +3,8 @@ import jwt from 'jsonwebtoken';
 const secret_key = process.env.JWT_SECRET || "asjdkaljsd829138askjdkaj8ASS81*20@34@34590%%231aaxc9492918c";
 
 // Generate token for user payloads
-export const generateToken = (res,user) =>{
-    const token = jwt.sign({
+export const generateToken = async(res,user) =>{
+    const token =  jwt.sign({
         _id:user._id,
         fullname:user.fullname,
         username:user.username,
@@ -21,4 +21,6 @@ export const generateToken = (res,user) =>{
             sameSite:"Strict",
             maxAge:7 * 24 * 60 * 60 *1000
         });
+
+    return token
 }

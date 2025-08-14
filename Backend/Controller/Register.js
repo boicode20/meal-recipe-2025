@@ -9,7 +9,7 @@ export const register = async(req,res) => {
 
     if(fullname==''||email==''||username==''||password=='') return res.status(400).json({error:true,message:"Please fill all fields"});
     if(!isEmailValid) return res.status(400).json({error:true,message:"Invalid email addresss."});
-
+    if(password.length < 8 ) return res.status(400).json({error:true,message:"Password must be 8 characters or more."});
     try{
 
         // Check if username or email is exist

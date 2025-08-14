@@ -40,17 +40,20 @@ const mealSchema = new Schema({
     },
     meal_type:{
         type: String,
-        enum: ['Breakfast', 'Lunch', 'Dinner', 'Snack', 'Dessert', 'Drink'],
+        enum: ['Breakfast', 'Lunch', 'Dinner', 'Snack', 'Dessert'],
         required: true
     },
     meal_origin:{
         type: String,
         required: true
-    }
-    ,
+    },
     meal_heart:{
         type: Number,
         default: 0
+    },
+    meal_time_cook:{
+        type:String,
+        required:true
     }
 
 },{timestamps:true})
