@@ -52,8 +52,14 @@ const mealSchema = new Schema({
         default: 0
     },
     meal_time_cook:{
-        type:String,
-        required:true
+        hours:{
+            type:Number,
+            required:true
+        },
+        minutes:{
+            type:Number,
+            
+        }
     }
 
 },{timestamps:true})
