@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+.auth-inner-con{
+    box-shadow: 0 0 30px #dedddd;
+}
+.logo {
+    color: var(--logo-color);
+}
+.auth-logo-name{
+    font-family: "Nunito", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+
+}
+.auth-logo-name h1{
+    color: var(--main-text);
+}
