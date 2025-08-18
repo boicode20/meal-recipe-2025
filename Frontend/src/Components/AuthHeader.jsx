@@ -8,8 +8,8 @@ const AuthHeader = () => {
             <div className="logo text-center text-4xl">
               <GiHotMeal/>
             </div>
-            <div className="auth-logo-name text-2xl">
-              <h1>Lets Cook</h1>
+            <div className="auth-logo-name text-2xl font-bold">
+              <h1>Cook<span>Share</span></h1>
             </div>
         </div>
     </div>

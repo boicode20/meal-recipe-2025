@@ -9,9 +9,22 @@
 .auth-logo-name{
     font-family: "Nunito", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 600;
 
 }
 .auth-logo-name h1{
-    color: var(--main-text);
+    color: var(--text-logo-h1);
+}
+.auth-logo-name h1 span{
+    color: var(--text-logo-span);
+
+}
+.login-btn{
+    transition: all ease-in-out 0.2s;
+    -webkit-transition: all ease-in-out 0.2s;
+    -moz-transition: all ease-in-out 0.2s;
+    -ms-transition: all ease-in-out 0.2s;
+    -o-transition: all ease-in-out 0.2s;
+    &:hover{
+        background-color: var(--login-btn-hover);
+    }
 }
