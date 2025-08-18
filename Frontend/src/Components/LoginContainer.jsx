@@ -1,6 +1,6 @@
 import React from 'react'
 
-const LoginContainer = ({children}) => {
+const Container = ({children}) => {
   return (
     <div className='w-full h-screen flex items-center justify-center'>
       {children}  
@@ -8,4 +8,4 @@ const LoginContainer = ({children}) => {
   )
 }
 
-export default LoginContainer
+export default Container

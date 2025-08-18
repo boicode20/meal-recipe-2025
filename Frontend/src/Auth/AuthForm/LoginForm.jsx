@@ -32,7 +32,7 @@ const LoginForm = () => {
           <p className='text-[.8rem] mt-[-3px]'>or</p>
           <span className='w-full h-[1px] bg-[#969696]'></span>
         </div>
-        <button className='register-btn w-full h-[37px] bg-[var(--register-btn)] rounded-[3px] text-[#fff] font-semibold cursor-pointer' type='submit'>Register</button>
+        <Link to={'/register'}><button className='register-btn w-full h-[37px] bg-[var(--register-btn)] rounded-[3px] text-[#fff] font-semibold cursor-pointer' type='submit'>Register</button></Link>
     </form>
   )
 }

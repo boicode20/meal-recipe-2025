@@ -1,17 +1,17 @@
 import React from 'react'
 import '../auth.css'
-import LoginContainer from '../../Components/LoginContainer'
+import Container from '../../Components/LoginContainer'
 import AuthContainer from '../../Components/AuthContainer'
 import AuthHeader from '../../Components/AuthHeader'
 import LoginForm from '../AuthForm/LoginForm'
 const Login = () => {
   return (
-    <LoginContainer>
+    <Container>
       <AuthContainer>
         <AuthHeader/>
         <LoginForm/>
       </AuthContainer>
-    </LoginContainer>
+    </Container>
   )
 }
 
