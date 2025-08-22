@@ -1,0 +1,6 @@
+.auth-parent-container{
+    background: url('../assets/auth-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}

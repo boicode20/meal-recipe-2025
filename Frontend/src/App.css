@@ -1,11 +1,11 @@
 :root{
     --main-text: #3b3b3b;
-    --logo-color: #f66f01;
-    --login-btn: #fc801b;
+    --auth-container-bg: #f0f0f0;
+    --logo-color: #ff7c11;
+    --login-btn: #ff7c11;
     --login-btn-hover: #ff8d2f;
     --register-btn: #349e35;
     --register-btn-hover: #3eb340;
-
     --text-logo-h1: #f66f01;
     --text-logo-span: #525252;
 
